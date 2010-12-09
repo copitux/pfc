@@ -1,0 +1,55 @@
+form { width: 75%; overflow: hidden; padding: 2%; }
+.boton { border: 1px solid grey; margin: 0px 0 5px 126px; }
+form div { overflow: hidden; margin-bottom: 10px; }
+form div label
+{ 
+	display: block; 
+	float: left;
+	width: 120px;
+	font-weight: bold;
+	color: #6699cc;
+	padding: 3px;
+}
+form div input
+{ 
+	border: 0;
+	border-bottom: 1px dotted gray;
+	padding: 2px 2px 2px 20px;
+	-moz-border-radius: 3px;
+}
+form div input:focus { background-color: #FFF; }
+form fieldset {	border: 0; width: 70%; float: left; }
+form fieldset p { border-top: 1px solid #85C300; padding: 3px; }
+form fieldset span { display: block; padding: 1px 1px 1px 20px; }
+form p.ayuda { display: none; }
+form:hover p.ayuda
+{ 
+	display:  block;
+	text-align: right;
+	margin: 0 0 0 70%;
+	text-align: justify;
+	padding-top: 1px;
+}
+form:hover { background-color: #FFFF99; -moz-border-radius: 5px; }
+form p.ayuda span { margin-left: 20px; display: block; }
+
+/* styles especiales */
+
+.botonprm { border: 1px solid grey; margin-bottom: 5px; }
+.botonAmigos
+{
+	border: 0; background-color: transparent;
+	color: #AB0059; text-decoration: none; border-bottom: 1px dotted #AB0059; outline-style: none;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 9pt;
+}
+.botonAmigos:hover { color: #FF0084; border-bottom: 1px solid #FF0084; cursor: pointer; }
+ul.prm {
+	padding: 10px;
+}
+ul.prm li {
+	//font-weight: bold;
+	//color: #6699cc;
+	padding: 5px; 
+}
+ul.prm input {  }

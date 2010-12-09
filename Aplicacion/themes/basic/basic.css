@@ -1,0 +1,172 @@
+* { margin: 0; padding: 0; }
+a { color: #AB0059; text-decoration: none; border-bottom: 1px dotted #AB0059; outline-style: none; }
+a:hover { color: #FF0084; border-bottom: 1px solid #FF0084; }
+span { padding-left: 20px; }
+strong { color: #85C300; }
+acronym { border-bottom: 1px dotted grey; font-style: italic; }
+acronym:hover { cursor: help; }
+html
+{
+	text-align: center;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 9pt;
+	color: #333333;
+}
+body { text-align: left; background: #FFF; }
+h3 { font-size: 10pt; }
+ul { list-style: none; }
+
+.alumno { background: transparent url(images/alumno.png) no-repeat; }
+.profesor { background: transparent url(images/profesor.png) no-repeat; }
+.admin { background: transparent url(images/admin.png) no-repeat; }
+.drive { background: transparent url(images/drive.png) no-repeat; }
+.disco { background: transparent url(images/disco.png) no-repeat; }
+.disco_local { background: transparent url(images/disco_local.png) no-repeat; }
+.disco_docente { background: transparent url(images/disco_docente.png) no-repeat; }
+.disco_compartido { background: transparent url(images/disco_compartido.png) no-repeat; }
+.control_panel { background: transparent url(images/control_panel.png) no-repeat; }
+.datos_usuario { background: transparent url(images/datos_usuario.png) no-repeat; }
+.login { background: transparent url(images/login.png) no-repeat;}
+.unlog { background: transparent url(images/unlog.png) no-repeat; }
+.help { background: transparent url(images/help.png) no-repeat;}
+.key { background: transparent url(images/key.png) no-repeat;}
+.error { background: transparent url(images/error.png) no-repeat;}
+.carpeta { background: transparent url(images/carpeta.png) no-repeat;}
+.nueva_carpeta { background: transparent url(images/nueva_carpeta.png) no-repeat;}
+.carpeta_compartida { background: transparent url(images/carpeta_compartida.png) no-repeat;}
+.aviso { background: transparent url(images/aviso.png) no-repeat;}
+.default_icon { background: transparent url(images/default_icon.png) no-repeat;}
+.edit { background: transparent url(images/edit.png) no-repeat;}
+.upload { background: transparent url(images/upload.png) no-repeat;}
+.dir { background: transparent url(images/carpeta.png) no-repeat;}
+.file { background: transparent url(images/file.png) no-repeat;}
+.ap_edit { background: transparent url(images/ap_edit.png) no-repeat;}
+.ap_del { background: transparent url(images/ap_del.png) no-repeat;}
+.ap_shr { background: transparent url(images/ap_shr.png) no-repeat;}
+.home { background: transparent url(images/home.png) no-repeat;}
+.asignatura { background: transparent url(images/asignatura.png) no-repeat;}
+.enunciado { background: transparent url(images/enunciado.png) no-repeat;}
+.email { background: transparent url(images/email.png) no-repeat;}
+.practica { background: transparent url(images/practica.png) no-repeat;}
+.ok { background: transparent url(images/ok.png) no-repeat;}
+.file_compartida { background: transparent url(images/file_compartida.png) no-repeat;}
+.subir_enunciado { background: transparent url(images/subir_enunciado.png) no-repeat;}
+.add_user { background: transparent url(images/add_user.png) no-repeat;}
+.del_user { background: transparent url(images/del_user.png) no-repeat;}
+.info { background: transparent url(images/info.png) no-repeat;}
+//. { background: transparent url(images/.png) no-repeat;}
+
+#contenedor
+{
+	background: #FFF;
+	width: 90%;
+	margin: auto;
+}
+#cabecera { }
+#cabecera h1 { float: right; }
+#cabecera h1 a {
+	background: transparent url(images/uemc.png);
+	width: 70px;
+	height: 70px;
+	display: block;	border: 0;
+	margin-top: 5px;
+}
+#cabecera h1 a span { display: none; }
+#cabecera h2
+{
+	margin: 0 80px 0px 0;
+	overflow: hidden;
+}
+#cabecera h2 a {
+	background: transparent url('images/logo.png') no-repeat;
+	width: 500px;
+	height: 70px;
+	display: block; border: 0;
+	margin: 10px 0 0 0px;
+}
+#cabecera h2 a span { display: none; }
+#cabecera ul { list-style: none; margin-bottom: 10px; }
+#cabecera ul li
+{	
+	margin-right: 10px;
+	display: inline;
+	padding: 5px;
+}
+
+#state { background: #ccccff; padding: 5px; -moz-border-radius: 5px; margin-bottom: 5px; }
+#state span.drive { display: block; float: right; }
+#cuerpo
+{
+	width: 79%;
+	float: right;
+	margin: 0 0 10px 0;
+}
+#cuerpo h3 { border-bottom: 1px dotted grey; margin-bottom: 5px;}
+#cuerpo h4
+{ 
+	margin-bottom: 3px; 
+	color: #85C300;
+	font-size: 9pt;
+}
+#cuerpo div.amg { overflow: hidden; margin:0; }
+#cuerpo h4.amg { float: left; }
+#cuerpo h5.amg { text-align: right; font-size: 9pt; }
+#cuerpo #aviso { width: 65%; padding: 2%; margin-bottom: 10px; }
+#cuerpo #aviso h3 { font-size: 9pt; padding: 3px; border: 0; background-color: #F9BEBE; border: 1px solid #F25754; -moz-border-radius: 3px; }
+#cuerpo #aviso h3 span { padding-left: 20px; }
+#cuerpo #aviso ul { margin: 3%; }
+#cuerpo #aviso li { color: #669966; font-weight: bold; }
+#cuerpo #aviso ul.reglas li { font-weight: normal; color: #333333; }
+
+#cuerpo #ruta,#opciones { padding: 10px; }
+#cuerpo #opciones span { padding-top: 2px; }
+#cuerpo table { width: 100%; margin-bottom: 20px; }
+#cuerpo thead { font-weight: bold; background-color: #ccffcc; -moz-border-radius: 5px; }
+#cuerpo table tr.share { background-color: #ffffcc; }
+#cuerpo table tbody tr:hover { outline: 1px solid #CBDBEF; }
+#cuerpo td { padding: 5px; }
+#cuerpo td.archivo { width: 40%; }
+#cuerpo td span { padding-top: 0px; }
+#cuerpo span.amigo
+{
+	font-weight: bold;
+	color: #6699cc;
+}
+
+#menu
+{
+	background: #beecbd;
+	-moz-border-radius: 5px;
+	width: 20%;
+	overflow: hidden;
+}
+#menu h3
+{
+	background-color: #99cc99;
+	border: 2px solid #FFF;
+	margin: 5px;
+	padding: 3px;
+	-moz-border-radius: 5px;
+}
+#menu div { margin-left: 10%; }
+#menu div h4
+{ 
+	background: #FFF; 
+	margin-bottom: 8px; 
+	padding: 3px; 
+	-moz-border-radius: 10px 0 0 0;
+	border-right: 5px solid #beecbd;
+}
+#menu div h4:hover { border-right: 5px solid #99cc99; }
+#menu h4 span { opacity: 0.7; }
+#menu h4 span:hover { opacity: 1; }
+#menu h3 span { padding-left: 20px; color: #4c4c4c; }
+#pie
+{
+	margin-top: 10px;
+	border-top: 1px solid #666666;
+	clear: both;
+	overflow: hidden;
+	padding-top: 5px;
+}
+#pie div { float: right; }

@@ -1,0 +1,778 @@
+<html>
+<head>
+<title>Docs For Class Controller_user</title>
+<link rel="stylesheet" type="text/css" href="../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">controllers</td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+        
+                                                        
+                                                  		  [ <a href="../classtrees_controllers.html" class="menu">class tree: controllers</a> ]
+		  [ <a href="../elementindex_controllers.html" class="menu">index: controllers</a> ]
+		  	    [ <a href="../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+      <b>Packages:</b><br />
+              <a href="../li_base.html">base</a><br />
+              <a href="../li_controllers.html">controllers</a><br />
+              <a href="../li_model.html">model</a><br />
+            <br /><br />
+                        <b>Files:</b><br />
+      	  <div class="package">
+			<a href="../controllers/_controllers---admin.php.html">		admin.php
+		</a><br>
+			<a href="../controllers/_classes---controller_user.class.php.html">		controller_user.class.php
+		</a><br>
+			<a href="../controllers/_controllers---index.php.html">		index.php
+		</a><br>
+			<a href="../controllers/_controllers---student.php.html">		student.php
+		</a><br>
+			<a href="../controllers/_controllers---teacher.php.html">		teacher.php
+		</a><br>
+	  </div><br />
+      
+      
+            <b>Classes:</b><br />
+        <div class="package">
+		    		<a href="../controllers/Controller_admin.html">Controller_admin</a><br />
+	    		<a href="../controllers/Controller_index.html">Controller_index</a><br />
+	    		<a href="../controllers/Controller_student.html">Controller_student</a><br />
+	    		<a href="../controllers/Controller_teacher.html">Controller_teacher</a><br />
+	    		<a href="../controllers/Controller_user.html">Controller_user</a><br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: Controller_user</h1>
+Source Location: /classes/controller_user.class.php<br /><br />
+
+
+<table width="100%" border="0">
+<tr><td valign="top">
+
+<h3><a href="#class_details">Class Overview</a></h3>
+<pre><a href="../base/Controller_base.html">Controller_base</a>
+   |
+   --Controller_user</pre><br />
+<div class="description">controller_user.class.php - Controlador de usuario</div><br /><br />
+<h4>Author(s):</h4>
+<ul>
+          <li>Fernando Pintado &lt;<a href="mailto:alatul@gmail.com">alatul@gmail.com</a>&gt;</li>
+              <li>David Medina &lt;<a href="mailto:aizmuth@gmail.com">aizmuth@gmail.com</a>&gt;</li>
+            </ul>
+
+
+
+
+            
+
+        
+</td>
+
+<td valign="top">
+<h3><a href="#class_vars">Variables</a></h3>
+<ul>
+    <li><a href="../controllers/Controller_user.html#var$path">$path</a></li>
+    <li><a href="../controllers/Controller_user.html#var$user">$user</a></li>
+    <li><a href="../controllers/Controller_user.html#var$user_type">$user_type</a></li>
+  </ul>
+</td>
+
+
+<td valign="top">
+<h3><a href="#class_methods">Methods</a></h3>
+<ul>
+    <li><a href="../controllers/Controller_user.html#method__construct">__construct</a></li>
+    <li><a href="../controllers/Controller_user.html#methodamigos">amigos</a></li>
+    <li><a href="../controllers/Controller_user.html#methodamigosAdd">amigosAdd</a></li>
+    <li><a href="../controllers/Controller_user.html#methoddata">data</a></li>
+    <li><a href="../controllers/Controller_user.html#methoddlFile">dlFile</a></li>
+    <li><a href="../controllers/Controller_user.html#methoddownload">download</a></li>
+    <li><a href="../controllers/Controller_user.html#methoddShare">dShare</a></li>
+    <li><a href="../controllers/Controller_user.html#methodgetRute">getRute</a></li>
+    <li><a href="../controllers/Controller_user.html#methodindex">index</a></li>
+    <li><a href="../controllers/Controller_user.html#methodlogin">login</a></li>
+    <li><a href="../controllers/Controller_user.html#methodnewFolder">newFolder</a></li>
+    <li><a href="../controllers/Controller_user.html#methodrnFile">rnFile</a></li>
+    <li><a href="../controllers/Controller_user.html#methodshare">share</a></li>
+    <li><a href="../controllers/Controller_user.html#methodshareEdit">shareEdit</a></li>
+    <li><a href="../controllers/Controller_user.html#methodunlog">unlog</a></li>
+    <li><a href="../controllers/Controller_user.html#methodupFile">upFile</a></li>
+  </ul>
+</td>
+
+</tr></table>
+<hr />
+
+<table width="100%" border="0"><tr>
+
+
+<td valign="top">
+<h3>Child classes:</h3>
+<div class="tags">
+<dl>
+<dt><a href="../controllers/Controller_student.html">Controller_student</a></dt>
+	<dd>student.php - Controlador de alumno</dd>
+</dl>
+<dl>
+<dt><a href="../controllers/Controller_teacher.html">Controller_teacher</a></dt>
+	<dd>student.php - Controlador de profesor</dd>
+</dl>
+</div>
+</td>
+
+
+<td valign="top">
+<h3>Inherited Variables</h3>
+<div class="tags">
+<h4>Class: <a href="../base/Controller_base.html">Controller_base</a></h4>
+<dl>
+<dt>
+  <a href="../base/Controller_base.html#var$call_action">Controller_base::$call_action</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../base/Controller_base.html#var$init">Controller_base::$init</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../base/Controller_base.html#var$smarty">Controller_base::$smarty</a>
+  </dt>
+<dd>
+   
+</dd>
+</dl>
+</div>
+</td>
+
+<td valign="top">
+<h3>Inherited Methods</h3>
+<div class="tags">
+<h4>Class: <a href="../base/Controller_base.html">Controller_base</a></h4>
+<dl>
+    <dt>
+    <a href="../base/Controller_base.html#method__construct">Controller_base::__construct()</a>
+  </dt>
+  <dd>
+    Constructor
+  </dd>
+    <dt>
+    <a href="../base/Controller_base.html#method_404">Controller_base::_404()</a>
+  </dt>
+  <dd>
+    404 Page
+  </dd>
+    <dt>
+    <a href="../base/Controller_base.html#method__destruct">Controller_base::__destruct()</a>
+  </dt>
+  <dd>
+    Carga la plantilla 'foot' para mostrar tiempo de carga
+  </dd>
+  </dl>
+</div>
+</td>
+
+</tr></table>
+<hr />
+
+<a name="class_details"></a>
+<h3>Class Details</h3>
+<div class="tags">
+[line 14]<br />
+controller_user.class.php - Controlador de usuario<br /><br /><p>Controlador encargado de los usuarios.  Contiene la gran mayoria de opciones de usuario comunes a ambos</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>author:</b>&nbsp;&nbsp;</td><td>Fernando Pintado &lt;<a href="mailto:alatul@gmail.com">alatul@gmail.com</a>&gt;</td>
+  </tr>
+  <tr>
+    <td><b>author:</b>&nbsp;&nbsp;</td><td>David Medina &lt;<a href="mailto:aizmuth@gmail.com">aizmuth@gmail.com</a>&gt;</td>
+  </tr>
+  <tr>
+    <td><b>abstract:</b>&nbsp;&nbsp;</td><td></td>
+  </tr>
+</table>
+</div>
+</div><br /><br />
+<div class="top">[ <a href="#top">Top</a> ]</div><br />
+
+<hr />
+<a name="class_vars"></a>
+<h3>Class Variables</h3>
+<div class="tags">
+	<a name="var$path"></a>
+	<p></p>
+	<h4>$path = <span class="value"></span></h4>
+	<p>[line 42]</p>
+  Ruta relativa.<br /><br /><p>Forma la ruta que el usuario define en su disco.  Usada en otras ocasiones sin caracter semantico.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>mixed</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$user"></a>
+	<p></p>
+	<h4>$user = <span class="value"></span></h4>
+	<p>[line 31]</p>
+  Modelo del usuario $user_type<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>see:</b>&nbsp;&nbsp;</td><td><a href="../controllers/Controller_user.html#var$user_type">Controller_user::$user_type</a></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>object Model_*</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$user_type"></a>
+	<p></p>
+	<h4>$user_type = <span class="value">&nbsp;''</span></h4>
+	<p>[line 22]</p>
+  Tipo de usuario<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>(student or teacher)</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+</div><br />
+
+<hr />
+<a name="class_methods"></a>
+<h3>Class Methods</h3>
+<div class="tags">
+
+  <hr />
+	<a name="method__construct"></a>
+	<h3>constructor __construct <span class="smalllinenumber">[line 52]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>Controller_user __construct(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Constructor que inserta funcion al base.<br /><br /><p>Generador de sesion si esta identificado.  Instancia el modelo tipo.  Asigna variables basicas de usuario a smarty.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	<p>Overridden in child classes as:<br />
+		<dl>
+	<dt><a href="../controllers/Controller_student.html#method__construct">Controller_student::__construct()</a></dt>
+		<dd>Inserta funcionalidad al constructor de usuario</dd>
+	</dl>
+		<dl>
+	<dt><a href="../controllers/Controller_teacher.html#method__construct">Controller_teacher::__construct()</a></dt>
+		<dd>Inserta funcionalidad al constructor de usuario</dd>
+	</dl>
+	</p>
+	Overrides <a href="../base/Controller_base.html#method__construct">Controller_base::__construct()</a> (Constructor)<br /><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodamigos"></a>
+	<h3>method amigos <span class="smalllinenumber">[line 450]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void amigos(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Lista amigos del usuario.<br /><br /><p>Muestra una lista con los amigos del usuario que a su vez es un formulario.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>see:</b>&nbsp;&nbsp;</td><td><a href="../model/Model_user.html#methodgetAmigos">Model_user::getAmigos()</a></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodamigosAdd"></a>
+	<h3>method amigosAdd <span class="smalllinenumber">[line 484]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void amigosAdd(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Inserta amigo.<br /><br /><p>Muestra o tramita el formulario para insertar amigos.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>see:</b>&nbsp;&nbsp;</td><td><a href="../model/Model_user.html#methodaddAmigos">Model_user::addAmigos()</a></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methoddata"></a>
+	<h3>method data <span class="smalllinenumber">[line 131]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void data(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Muestra datos del usuario<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methoddlFile"></a>
+	<h3>method dlFile <span class="smalllinenumber">[line 202]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void dlFile(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Elimina elemento<br /><br /><p>Si se ha podido eliminar el elemento desaparece de la interfaz.  Tramita errores del modelo bajo excepciones.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>see:</b>&nbsp;&nbsp;</td><td><a href="../model/Model_user.html#methoddlFile">Model_user::dlFile()</a></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methoddownload"></a>
+	<h3>method download <span class="smalllinenumber">[line 88]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void download(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Fuerza la descarga del archivo.<br /><br /><p>Optimizable con mas chequeos y seguridad  Rutas internas para no dar datos al usuario.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>see:</b>&nbsp;&nbsp;</td><td>downloadfileclass</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methoddShare"></a>
+	<h3>method dShare <span class="smalllinenumber">[line 515]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void dShare(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Muestra disco compartidos.<br /><br /><p>Muestra tanto los usuarios que comparten elementos al usuario  como los elementos de un usuario.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>see:</b>&nbsp;&nbsp;</td><td><a href="../model/Model_user.html#methodgetUsers">Model_user::getUsers()</a></td>
+  </tr>
+  <tr>
+    <td><b>see:</b>&nbsp;&nbsp;</td><td><a href="../model/Model_user.html#methodgetShrFiles">Model_user::getShrFiles()</a></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetRute"></a>
+	<h3>method getRute <span class="smalllinenumber">[line 542]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>array getRute(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Menu de navegacion del disco local.<br /><br /><p>Forma el array con los datos necesarios para Smarty con la variable $path.  Insertada funcionalidad para el separador.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>Datos para smarty</td>
+  </tr>
+  <tr>
+    <td><b>see:</b>&nbsp;&nbsp;</td><td><a href="../controllers/Controller_user.html#var$path">Controller_user::$path</a></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodindex"></a>
+	<h3>method index <span class="smalllinenumber">[line 182]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void index(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Muestra Disco Local.<br /><br /><p>Muestra los datos que el modelo le proporciona y un menu de navegacion dinamico.  Metodo por defecto si unicamente se indica el controlador.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>see:</b>&nbsp;&nbsp;</td><td><a href="../model/Model_user.html#methodgetLocalFiles">Model_user::getLocalFiles()</a></td>
+  </tr>
+  <tr>
+    <td><b>see:</b>&nbsp;&nbsp;</td><td><a href="../controllers/Controller_user.html#methodgetRute">Controller_user::getRute()</a></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodlogin"></a>
+	<h3>method login <span class="smalllinenumber">[line 145]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void login(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Identificacion de usuario.<br /><br /><p>Se encarga de mostrar o tramitar el formulario de identificacion.  Si lo tramita llama al modelo para comprobar datos contra la DB.  Encriptacion MD5 sin semillas.  Genera sesion.</p><p>Optimizable con LDAP o similares.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>see:</b>&nbsp;&nbsp;</td><td><a href="../model/Model_user.html#methodcheckLogin">Model_user::checkLogin()</a></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodnewFolder"></a>
+	<h3>method newFolder <span class="smalllinenumber">[line 336]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void newFolder(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Crear carpeta<br /><br /><p>Muestra o tramita el formulario de creación de carpeta.  Avisa, si el directorio donde se pretende subir el archivo ya esta compartido, de los usuarios y permisos.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>see:</b>&nbsp;&nbsp;</td><td>Mode_user::newFolder()</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodrnFile"></a>
+	<h3>method rnFile <span class="smalllinenumber">[line 233]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void rnFile(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Renombrar elemento<br /><br /><p>Muestra o tramita un formulario para renombrar un elemento..  Errores captados con excepciones.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>see:</b>&nbsp;&nbsp;</td><td><a href="../model/Model_user.html#methoddlFile">Model_user::dlFile()</a></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodshare"></a>
+	<h3>method share <span class="smalllinenumber">[line 370]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void share(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Compartir elemento.<br /><br /><p>Muestra o tramita el formulario para compartir un elemento.  Errores tramitados con excepciones.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>see:</b>&nbsp;&nbsp;</td><td><a href="../model/Model_user.html#methodshare">Model_user::share()</a></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodshareEdit"></a>
+	<h3>method shareEdit <span class="smalllinenumber">[line 404]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void shareEdit(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Editar permisos de compartir.<br /><br /><p>No realiza modificacion.  Sencillamente elimina e inserta un nuevo grupo, reutilizacion de codigo.  Optimizable.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>see:</b>&nbsp;&nbsp;</td><td><a href="../model/Model_user.html#methodshare">Model_user::share()</a></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodunlog"></a>
+	<h3>method unlog <span class="smalllinenumber">[line 125]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void unlog(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Elimina sesion<br /><br /><p>El controlador sin sesion no tiene funcionalidad.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodupFile"></a>
+	<h3>method upFile <span class="smalllinenumber">[line 284]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void upFile(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Subir archivo<br /><br /><p>Muestra o tramita un formulario para subir archivos.</p><p>Avisa, si el directorio donde se pretende subir el archivo ya esta compartido, de los usuarios y permisos.  Errores captados con excepciones.</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>see:</b>&nbsp;&nbsp;</td><td><a href="../model/Model_user.html#methodupFile">Model_user::upFile()</a></td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>public</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+</div><br />
+
+
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Tue, 10 Mar 2009 08:55:21 +0100 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.1</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
